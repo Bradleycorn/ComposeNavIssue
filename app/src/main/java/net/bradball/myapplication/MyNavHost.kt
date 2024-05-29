@@ -20,7 +20,7 @@ fun MyNavHost(navController: NavHostController = rememberNavController(), onLogi
 
         composable(route = "home") {
             HomeScreen(onLogoutClicked = {
-                navController.navigateToLogin()
+                 navController.navigateToLogin()
             })
         }
 
