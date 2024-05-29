@@ -13,6 +13,7 @@ The screen animates to the "login screen" destination using the enterTransition 
 #### Actual Result:
 The screen animates to the "login screen" destination by "sliding in" diagonally from the bottom right. This is odd because there is no transition defined on the NavHost (or anywhere) that uses a sliding animation.
 
+[Screen_recording_20240412_160831.webm](https://github.com/Bradleycorn/ComposeNavIssue/assets/4521694/1b57a4a9-ca21-468a-855d-d11c91a4e645)
 
 ## App Architecture
 The [`MyNavHost.kt`](https://github.com/Bradleycorn/ComposeNavIssue/blob/master/app/src/main/java/net/bradball/myapplication/MyNavHost.kt) file defines a NavHost with destinations
